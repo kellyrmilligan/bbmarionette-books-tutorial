@@ -1,0 +1,15 @@
+<a class="close" data-dismiss="modal">x</a>
+	<div class="imgBook">
+      <img src="{{#if volumeInfo.imageLinks.thumbnail }}{{ volumeInfo.imageLinks.thumbnail }} {{else}}http://placehold.it/200x260'){{/if}}" />
+    </div>
+    <h1>{{title}}</h1>
+    {{#if volumeInfo.subtitle }}
+    	<h2>{{ volumeInfo.subtitle }}</h2>
+   	{{/if}}
+   	{{#if volumeInfo.description }}
+   		<p>{{ volumeInfo.description }}</p>
+   	{{else}}
+   		</p>No description found.</p>
+   	{{/if}}
+    <b>Google link :</b> <a href="http://books.google.fr/books?id={{id}}" target="_blank">http://books.google.fr/books?id={{id}}</a>
+  </script>
