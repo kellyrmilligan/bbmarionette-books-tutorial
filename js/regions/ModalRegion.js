@@ -1,4 +1,4 @@
-define(['marionette', 'vent'], function (Marionette, vent) {
+define(['marionette', 'bootstrap'], function (Marionette, bootstrap) {
 
   var ModalRegion = Marionette.Region.extend({
     el: '#modal',

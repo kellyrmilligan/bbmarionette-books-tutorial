@@ -10,7 +10,7 @@ define(['marionette', 'regions/ContentRegion', 'views/CloseItemView', 'vent'],
       var closeItemView = new CloseItemView();
       ContentRegion.show(closeItemView);
       Backbone.history.navigate('close', true);
-    },
+    }
 
   });
 

@@ -10,7 +10,7 @@ define(['marionette', 'hbs!templates/app-layout', 'vent'],
     },
 
     initialize: function () {
-    },
+    }
 
   });
 

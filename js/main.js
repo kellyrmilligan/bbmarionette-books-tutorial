@@ -42,7 +42,7 @@ require.config({
 
 
 
-require(['app', 'vent', 'bootstrap'], function (app, vent) {
+require(['app'], function (app) {
 
   $(function() {
 
